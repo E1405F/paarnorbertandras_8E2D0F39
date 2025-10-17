@@ -1,0 +1,97 @@
+:root {
+  --bg: #0f1724;
+  --card: #111b2a;
+  --accent: #ffb86b;
+  --text: #e6eef6;
+  --muted: #9aa6b2;
+}
+img{
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--accent);
+}
+
+.card {
+  background-color: var(--card);
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--accent);
+  color: #08111a;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#result {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.perk-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.perk {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(255,255,255,0.05);
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+.perk img {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  object-fit: cover;
+}
